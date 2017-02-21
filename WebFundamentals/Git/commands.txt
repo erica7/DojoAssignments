@@ -1,0 +1,18 @@
+cd Desktop
+mkdir test
+cd test
+touch index.html
+touch styles.css
+touch aboutMe.txt
+git init
+git add .
+git commit -m “initial commit”
+git add .
+git commit -m “updated aboutMe”
+git add .
+git commit -m "added favorite movie to aboutMe"
+git log
+git revert -n 845ad1a
+git commit -m “revert 845ad1a”
+git add .
+git commit -m “another change to aboutMe”
