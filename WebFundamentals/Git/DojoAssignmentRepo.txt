@@ -1,0 +1,11 @@
+cd ~
+cd Desktop/DojoAssignments
+git init
+git status
+git add .
+git commit -m "initial commit"
+git remote add origin https://github.com/erica7/DojoAssignments.git
+git push -u origin master
+git status
+git add .
+git commit -m "added readme"
